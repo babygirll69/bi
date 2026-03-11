@@ -1,8 +1,9 @@
 head(iris)
 obj<-na.omit(iris)
 obj
-obj$species<-NULL
+obj$Species<-NULL
 kc<-kmeans(obj,3)
 (kc)
 library(cluster)
+
 clusplot(obj,kc$cluster)
