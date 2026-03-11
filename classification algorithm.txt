@@ -1,0 +1,7 @@
+classification algorithm
+
+rainfall<-c(10,12,15,16,14,18,19,20,25,26,30,35)
+rainfall
+rainfall.timeseries<-ts(rainfall,start=c(2025,4),frequency=12)
+rainfall.timeseries
+plot(rainfall.timeseries)
